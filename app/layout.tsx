@@ -80,9 +80,11 @@ export const metadata: Metadata = {
     images: ['/ccec4ceb-54ed-411c-a787-190cdca939d2.png'],
   },
 
-  /* ── Icons (only files that actually exist) ─────────── */
+  /* ── Icons ──────────────────────────────────────────── */
   icons: {
-    icon: '/logo.png',
+    icon: [
+      { url: '/logo.png', type: 'image/png' },
+    ],
   },
 }
 
